@@ -1,0 +1,64 @@
+body{
+    align-items: center;
+    text-align: center;
+}
+
+.buttons{
+    background-color: #2e2d2a;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 24px;
+}
+
+.letra{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* /////////////////// */
+
+.presentacion{
+    position: relative;
+    top: 50px;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #2e2d2a;
+    color: aliceblue;
+    height: auto;
+    position: relative;
+    top: 153px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+/* //////////////////////// */
+.sect-projetc{
+    position: relative;
+    top: 50px;
+}
+
+
+.section-teco{
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.text-teco{
+    position: relative;
+    top: 75px;
+
+}
+
+.graphs-dino{
+    display: flex;
+    justify-content: space-around;
+}
