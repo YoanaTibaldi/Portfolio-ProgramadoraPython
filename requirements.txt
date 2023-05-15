@@ -4,4 +4,4 @@ numpy
 plotly
 yfinance
 dash
-
+gunicorn
