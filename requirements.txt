@@ -6,3 +6,6 @@ yfinance
 dash
 gunicorn
 dash-bootstrap-components
+ipywidgets
+datetime
+re
