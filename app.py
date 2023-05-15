@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 import dash_bootstrap_components as dbc
 import plotly.express as px
 from process_data import *
-import dash
+
 
    
 app = Dash(__name__, use_pages=True, external_stylesheets=[dbc.themes.BOOTSTRAP])
