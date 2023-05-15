@@ -24,7 +24,12 @@ layout = html.Div(children=[
                 dcc.Link(html.Img(src='assets/css/cv.png',
                          style={'width':'32px',
                                 'height':'32px'
-                                }), href=' https://docs.google.com/document/d/1e35_Uzpe-a2S21eAAv2xyw24m48lBxAL-TBaQxFQxb8/export?format=pdf', target='_blank'),], className='icons')
+                                }), href=' https://docs.google.com/document/d/1e35_Uzpe-a2S21eAAv2xyw24m48lBxAL-TBaQxFQxb8/export?format=pdf', target='_blank'),
+                dcc.Link(html.Img(src='assets/css/github.png',
+                         style={'width':'32px',
+                                'height':'32px'
+                                }), href='https://github.com/YoanaTibaldi', target='_blank'),           
+                           ], className='icons')
 
     ], className='footer'),
                                 
